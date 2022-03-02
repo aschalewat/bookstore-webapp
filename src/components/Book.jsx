@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Book extends Component {
     state = {  } 
+    // next commit
     render() { 
         const book = this.props.book
         return (
