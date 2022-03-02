@@ -4,7 +4,7 @@ import DateComp from './DateComp'
 
 describe ('DateComp', () => {
     it('shuld render result', () => {
-        //const datecomp = DateComp;
+        const datecomp = DateComp;
 
         const wrapper = shallow(<DateComp />);
         const text = wrapper.find('h1')
